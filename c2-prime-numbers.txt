@@ -1,0 +1,18 @@
+begin
+	Declare sp as integer
+	Declare ep as integer
+	Declare isprime as boolean
+	set sum=0
+	for sp=sp to ep step 1
+	begin for 
+	isprime=true
+	     for i=2 to sp-1 step 1
+	      begin for
+	            if(sp%i=0)
+	 	isprime=false
+	            break;
+	      end for
+	sum=sum +sp;
+	print "sum of prime numbers : "+sum
+	end for
+end

@@ -1,0 +1,24 @@
+
+BEGIN 
+	GET Discount as Integer
+	GET Bill as Integer
+	IF Bill>=500
+	BEGIN IF
+	       Discount amount = (Discount/100)*Bill
+                         PRINT "Discount amount :"  + Discount amount
+	END IF
+	ELSE 
+	      PRINT "Purchase Product worth at least 500 to be eligible for discount"
+END 
+
+
+
+1. START
+2. Accept Discount and Bill from the  user
+3. If  Bill is greater than equal to 500
+4. Discount is divide by 100 multiply with bill and store It In Disciunt amount 
+5. Display Discount amount
+6. Else Display Purchase Product worth at least 500 to be eligible for discount
+7. STOP
+
+

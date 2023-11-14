@@ -1,0 +1,23 @@
+Begin 
+	Declare name as string
+	Declare dept as string
+	Declare salary as integer
+	set highestBonus=0
+	set totalBonus=0
+	for count=1 to7 step 1
+	   if(dept==sales)
+	   begin if
+	      bonus=sales*2/100;
+	      print "The bonus each empolyee get :"+bonus
+	          if(highestBonus<bonus)
+ 	          begin if
+	              highestBonus=bonus;
+	              print “Employee Received highest bonus : ”+name;		
+	         end if
+	   totalBonus=totalBonus+bonus;
+	   print " Total bonus amount : "+totalBonus
+	  end if
+	End for
+	avgBonus= totalBonus/7;
+	print "Average bonus amount : "+avgBonus
+End

@@ -1,0 +1,20 @@
+BEGIN
+	GET Amount as Integer
+	GET Withdraw as Integer
+	Balance = Amount - withdraw
+	IF Amount<100
+	       PRINT "Balance Amount :" + Amount
+	ELSE 
+	       PRINT "Balance Amount :"+ Balance
+END
+
+
+
+
+
+1. START
+2. Accept Amount and Withdraw from the  user
+3. Subtract Amount from Withdraw and store It In Balance 
+4. If  Amount is less than 100, Display  Amount 
+5. Else Display Balance
+6. STOP
