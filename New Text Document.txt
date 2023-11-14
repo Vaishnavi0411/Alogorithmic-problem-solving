@@ -1,7 +1,1 @@
-My name is vaishnavi 
-My final year project was real estate price prediction using machine learning where to identify actual price of the house 
-attributes were area,no of rooms, room of bathrooms.
-another project was sort visulalizer, as students are unable to visualize how the merge sort quick sort, bubble sort ,select sort working internally
-there will be the step by step arranging of the strips.
-students able to understand easily
 
